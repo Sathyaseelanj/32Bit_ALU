@@ -59,6 +59,7 @@ source /cadence/install/cshrc (mention the path of the tools)
 (The path of cshrc could vary depending on the installation destination)
       
 After this you can see the window like below 
+![Screenshot (171)](https://github.com/Sathyaseelanj/32Bit_ALU/blob/main/Screenshot%20(67).png)
 
 ### Fig 2: Invoke the Cadence Environment
 
@@ -72,12 +73,14 @@ or
 
 
 It will invoke the nclaunch window for functional simulation we can compile,elaborate and simulate it using Multiple Step .
+![Screenshot (173)](https://github.com/Sathyaseelanj/32Bit_ALU/blob/main/Screenshot%20(60).png)
 
 ### Fig 3: Setting Multi-step simulation
 
 Select Multiple Step and then select “Create cds.lib File” as shown in below figure 
 
 Click the cds.lib file and save the file by clicking on Save option 
+![Screenshot (174)](https://github.com/Sathyaseelanj/32Bit_ALU/blob/main/Screenshot%20(61).png)
 
 ### Fig 4:cds.lib file Creation
 
@@ -100,6 +103,7 @@ Left side you can see the HDL files. Right side of the window has worklib and sn
 Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation .
 
 To perform the function simulation, the following three steps are involved Compilation, Elaboration and Simulation. 
+![Screenshot (172)](https://github.com/Sathyaseelanj/32Bit_ALU/blob/main/Screenshot%20(68).png)
 
 ### Fig 6: Nclaunch Window
 
@@ -124,6 +128,7 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 Left side select the file and in Tools : launch verilog compiler with current selection will get enable. Click it to compile the code 
 
 Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation 
+![Screenshot (176)](https://github.com/Sathyaseelanj/32Bit_ALU/blob/main/Screenshot%20(37).png)
 
 ### Fig 7: Compiled database in worklib
 
@@ -134,8 +139,9 @@ Select the test bench and compile it. It will come under worklib. Under Worklib 
 The cds.lib file is an ASCII text file. It defines which libraries are accessible and where they are located. It contains statements that map logical library names to their physical
 
 directory paths. For this Design, you will define a library called “worklib”
+![sathya](https://github.com/Sathyaseelanj/32Bit_ALU/blob/main/Screenshot%20(62).png)
 
-#3 Step 2: Elaboration:– 
+## 3 Step 2: Elaboration:– 
 
 To check the port connections in hierarchical design
 
@@ -158,6 +164,7 @@ Outputs: Elaborate database updated in mapped library if successful, generates r
 5.It also establishes net connectivity and prepares all of this for simulation
 
 After elaboration the file will come under snapshot. Select the test bench and simulate it.
+![Screenshot (178)](https://github.com/Sathyaseelanj/32Bit_ALU/blob/main/Screenshot%20(63).png)
 
 ## Fig 8: Elaboration Launch Option
 
@@ -174,30 +181,16 @@ Simulation allow to dump design and test bench signals into a waveform
 Steps for simulation – Run the simulation command with simulator options
 
 ## Fig 9: Design Browser window for simulation
+![Screenshot (198)](https://github.com/Sathyaseelanj/32Bit_ALU/blob/main/Screenshot%20(64).png)
 
 ## Fig 10:Simulation Waveform Window
+![Screenshot (199)](https://github.com/Sathyaseelanj/32Bit_ALU/blob/main/Screenshot%20(65).png)
 
 ## Fig 11:Simulation Waveform Window
+![sathya](https://github.com/Sathyaseelanj/32Bit_ALU/blob/main/Screenshot%20(40).png)
 
-### Result
-
+# Result:
 The functionality of a 32-bit ALU was successfully verified using a test bench and simulated with the nclaunch tool.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      
-
 
 
 
